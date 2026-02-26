@@ -15,33 +15,3 @@ body {
 .app {
   text-align: center;
 }
-
-.cat-box {
-  margin-top: 1rem;
-  padding: 1.25rem;
-  border: 1px solid currentColor;
-  border-radius: 12px;
-  width: min(90vw, 520px);
-}
-
-.cat-type {
-  margin: 0.5rem 0;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-}
-
-.cat-day {
-  margin: 0.25rem 0;
-  opacity: 0.85;
-}
-
-.cat-details {
-  margin: 0.5rem 0;
-}
-
-.cat-ascii {
-  margin-top: 0.75rem;
-  font-size: 1.1rem;
-  text-align: center;
-}
