@@ -14,6 +14,10 @@ A simple GitHub Pages site. Deployment config for GitHub Pages is in .github/wor
 - Boot up a local instance of the site by using `npm run preview`
 - Ensure the build succeeds before pushing to `main` by using `npm run build`
 
+### More detailed instructions
+
+Check out the docs/ folder!
+
 ## To Do
 
 - Test setup
