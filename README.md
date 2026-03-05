@@ -16,7 +16,7 @@ A simple GitHub Pages site. Deployment config for GitHub Pages is in .github/wor
 
 ### More detailed instructions
 
-Check out the docs/ folder!
+Check out the [docs/](./docs/) folder!
 
 ## To Do
 
