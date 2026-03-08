@@ -34,7 +34,7 @@
 }
 
 .logo {
-  height: 12vmin;
+  height: 14vmin;
 }
 
 .button {
@@ -60,4 +60,20 @@
 
 .button:disabled {
   background-color: #40a5cd;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  line-height: 1;
+  column-gap: 1vw;
+}
+
+.title-text {
+  line-height: 7vmin;
+  font-size: 7vmin;
+  margin: 0;
+  color: white;
+  font-weight: 600;
+  -webkit-text-stroke: 0.2vmin black;
 }

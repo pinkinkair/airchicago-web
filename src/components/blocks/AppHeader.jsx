@@ -7,16 +7,22 @@ export const AppHeader = (props) => {
     <header className="toolbar">
       <div className="top">
         {/* Left side items */}
-        <div className="left-side">
-          <a href="/">
+        <a href="/" style={{ textDecoration: "none" }}>
+          <div className="left-side">
             <img
               src={LogoSvg}
               alt="Activists in Resistance Logo"
               className="logo"
             />
-          </a>
-          <h1>Activists in Resistance</h1>
-        </div>
+            <h2 className="title">
+              <p className="title-text">Activists</p>
+              <p className="title-text" style={{ color: "#EF002B" }}>
+                In
+              </p>
+              <p className="title-text">Resistance</p>
+            </h2>
+          </div>
+        </a>
       </div>
       <div className="bottom">
         <div style={{ borderLeft: "2px solid rgba(0, 0, 0, 0.5)" }}>
